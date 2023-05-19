@@ -1,0 +1,426 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 6156389400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 35,
+        "name": "Search the used car with model",
+        "description": "",
+        "id": "search-functionality;search-the-used-car-with-model;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 859032900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 148020500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "BuySteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 718448300,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "BuySteps.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1755503800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click ‘Used’ link",
+            "match": {
+              "location": "BuySteps.iClickUsedLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87921700,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to ‘Used Cars For Sale’ page",
+            "match": {
+              "location": "BuySteps.iNavigateToUsedCarsForSalePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137925900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select make \"Audi\" on used card search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Audi",
+                  "offset": 15
+                }
+              ],
+              "location": "BuySteps.iSelectMakeOnUsedCardSearch(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 174256200,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I select model \"A3\" on used card search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A3",
+                  "offset": 16
+                }
+              ],
+              "location": "BuySteps.iSelectModelOnUsedCardSearch(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 102213700,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select location \"NSW - All\" on used card search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "NSW - All",
+                  "offset": 19
+                }
+              ],
+              "location": "BuySteps.iSelectLocationOnUsedCardSearch(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113166500,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select price \"$30,000\" on used card search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$30,000",
+                  "offset": 16
+                }
+              ],
+              "location": "BuySteps.iSelectPriceOnUsedCardSearch(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1741487100,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on Find My Next Car tab on used card search",
+            "match": {
+              "location": "BuySteps.iClickOnFindMyNextCarTabOnUsedCardSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56939600,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should see the make \"Audi\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Audi",
+                  "offset": 23
+                }
+              ],
+              "location": "BuySteps.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@smoke"
+          },
+          {
+            "line": 21,
+            "name": "@regression"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4585394400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 36,
+        "name": "Search the used car with model",
+        "description": "",
+        "id": "search-functionality;search-the-used-car-with-model;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 736833100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 22200,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I am on homepage",
+            "match": {
+              "location": "BuySteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 782765200,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "BuySteps.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1588705900,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I click ‘Used’ link",
+            "match": {
+              "location": "BuySteps.iClickUsedLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55044900,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I navigate to ‘Used Cars For Sale’ page",
+            "match": {
+              "location": "BuySteps.iNavigateToUsedCarsForSalePage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 137894900,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "I select make \"Kia\" on used card search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kia",
+                  "offset": 15
+                }
+              ],
+              "location": "BuySteps.iSelectMakeOnUsedCardSearch(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 156687800,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I select model \"Rio\" on used card search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Rio",
+                  "offset": 16
+                }
+              ],
+              "location": "BuySteps.iSelectModelOnUsedCardSearch(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 89047600,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "I select location \"VIC - All\" on used card search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "VIC - All",
+                  "offset": 19
+                }
+              ],
+              "location": "BuySteps.iSelectLocationOnUsedCardSearch(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104222800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I select price \"$30,000\" on used card search",
+            "match": {
+              "arguments": [
+                {
+                  "val": "$30,000",
+                  "offset": 16
+                }
+              ],
+              "location": "BuySteps.iSelectPriceOnUsedCardSearch(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1946460200,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I click on Find My Next Car tab on used card search",
+            "match": {
+              "location": "BuySteps.iClickOnFindMyNextCarTabOnUsedCardSearch()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38393900,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "I should see the make \"Kia\" in results",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Kia",
+                  "offset": 23
+                }
+              ],
+              "location": "BuySteps.iShouldSeeTheMakeInResults(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 21,
+            "name": "@smoke"
+          },
+          {
+            "line": 21,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "As a user I want to check search functionality of website.",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "buy.feature"
+  }
+]
